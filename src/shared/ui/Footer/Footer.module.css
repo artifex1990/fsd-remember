@@ -1,0 +1,15 @@
+.footer {
+	display: flex;
+	gap: 48px;
+	padding-bottom: 70px;
+}
+
+@media screen and (max-wigth: 768px) {
+	.footer {
+		margin: 0 -20px;
+		border-top: solid 1px rgba(0, 0, 0, 0.2);
+		padding: 36px 20px;
+		flex-direction: column;
+		gap: 18px;
+	}
+}
