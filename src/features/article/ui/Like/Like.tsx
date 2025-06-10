@@ -1,3 +1,10 @@
+import { Tag } from '@/shared/ui';
+import styles from './Like.module.css';
+
 export function Like() {
-	return <>Лайкнуть</>;
+	return (
+		<Tag size="m" color="orange" icon="Check" className={styles.like}>
+			Лайкнуть
+		</Tag>
+	);
 }
